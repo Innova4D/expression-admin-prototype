@@ -1,0 +1,100 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<!--
+Element providing solution to no problem in particular.
+
+##### Example
+
+    <etiquetas-1></etiquetas-1>
+
+@element etiquetas-1
+@blurb Element providing solution to no problem in particular.
+@status alpha
+@homepage http://RCarlosTello.github.io/etiquetas-1
+-->
+<polymer-element name="etiquetas-1" attributes="author fancy">
+  <template>
+    <link rel="stylesheet" href="etiquetas-1.css">
+	<div id="admin">	
+		<core-icon class="icono" icon="room" ></core-icon>  
+		<h4>Administrador</h4>	
+		<input type="button" class="iconovistamosaico" value="edit">
+		<input type="button" class="iconovistalista" value="edit">	
+		<input type="button" class="iconobusqueda" value="edit">
+	</div>
+	<div id="unevento">
+		<h5>Un Evento</h5>
+		<input type="button" class="editarevento"  value="edit">
+	</div>
+	<div id="unpolitico">
+		<h5>Un Político</h5>
+		<input type="button" class="editarpolitico"  value="edit">
+	</div>
+	<div id="unpersonaje">
+		<h5>Un Personaje</h5>
+		<input type="button" class="editarpersonaje"  value="edit">
+	</div>
+	<div id="nuevaetiqueta">
+		<h5>Click aquí para agregar una nueva Sentiment Card</h5>
+	</div>    
+    <content></content>
+  </template>
+  <script>
+    Polymer({
+      /**
+       * The `author` attribute sets an initial author
+       *
+       * @attribute author
+       * @type string
+       * @default 'Dimitri Glazkov'
+       */
+      author: 'Dimitri Glazkov',
+
+      /**
+       * `fancy` is a property that does something fancy.
+       *
+       * @property fancy
+       * @type bool
+       * @default false
+       */
+      fancy: false,
+
+      ready: function () {
+        // Ready is a lifecycle callback.
+        // You can do setup work in here.
+        // More info: http://www.polymer-project.org/docs/polymer/polymer.html#lifecyclemethods
+      },
+
+      /**
+       * The `sayHello` method will return a greeting.
+       *
+       * @method sayHello
+       * @param {String} greeting Pass in a specific greeting.
+       * @return {String} Returns a string greeting.
+       */
+      sayHello: function (greeting) {
+        var response = greeting || 'Hello World!';
+        return 'etiquetas-1 says, ' + response;
+      },
+
+      /**
+       * The `etiquetas-1-lasers-success` event is fired whenever we
+       * call fireLasers.
+       *
+       * @event etiquetas-1-lasers-success
+       * @param {Object} detail
+       *   @param {string} detail.sound An amazing sound.
+       */
+
+      /**
+       * The `fireLasers` method will fire the lasers. At least
+       * it will dispatch an event that claims lasers were fired :)
+       *
+       * @method fireLasers
+       */
+      fireLasers: function () {
+        this.fire('etiquetas-1-lasers-success', { sound: 'Pew pew pew!' });
+      }
+    });
+  </script>
+</polymer-element>
