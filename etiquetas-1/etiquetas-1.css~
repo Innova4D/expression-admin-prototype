@@ -1,0 +1,115 @@
+#admin {
+		background: #0F2B3C;
+		color:#c0bdb4;
+		padding-bottom: 8px;
+		padding:25px;
+		text-align: left;
+		position: fixed; 
+		top:0%; left:0%; 
+		width:100%; height:5%;
+	}
+input.iconovistamosaico {
+		position: fixed;
+		width: 3%;
+		height: 3%;
+		top: 6%;
+		left: 87%;
+	}
+input.iconovistalista {
+		position: fixed;
+		width: 3%;
+		height: 3%;
+		top: 6%;
+		left: 91%;
+	}
+input.iconobusqueda {
+		position: fixed;
+		width: 3%;
+		height: 3%;
+		top: 6%;
+		left: 95%;
+	}
+h4{
+		color: #FFFFFF;
+		font-weight: normal;
+		font-size: 20px;
+		width:55%;
+		position: fixed; 
+		display: block; 
+	}
+h5{
+		color: #FFFFFF;
+		font-weight: normal;
+		font-size: 18px;
+		margin-top: 0em;
+		margin-bottom: 10em;
+		padding:8px;
+		
+		display: block; 
+		position: fixed;
+	}
+#unevento {
+		background: #FFD100;
+		color:#c0bdb4;
+		border-radius: 4px;
+		text-align: left;
+		position: fixed; 
+		top:20%; 		
+		left:5%; 
+		width:90%;    
+		height:7%;	
+		box-shadow: 0px 0px 10px 0px gray;/*sombra*/
+	}
+input.editarevento {
+		position: fixed;
+		width: 3%;
+		height: 5%;
+		top: 21%;
+		left: 90%;
+	}
+#unpolitico {
+		background: #DC4A4A;
+		color:#c0bdb4;
+		border-radius: 4px;
+		text-align: left;
+		position: fixed; 
+		top:30%; left:5%; 
+		width: 90%; height:7%;
+		box-shadow: 0px 0px 10px 0px gray;/*sombra*/
+	}
+input.editarpolitico {
+		position: fixed;
+		width: 3%;
+		height: 5%;
+		top: 31%;
+		left: 90%;
+	}
+#unpersonaje {
+		background: #45DE64;
+		color:#c0bdb4;
+		border-radius: 4px;
+		text-align: left;
+		position: fixed; 
+		top:40%; left:5%; 
+		width: 90%; height:7%;;
+		box-shadow: 0px 0px 10px 0px gray;/*sombra*/
+	}
+input.editarpersonaje {
+		position: fixed;
+		width: 3%;
+		height: 5%;
+		top: 41%;
+		left: 90%;
+	}
+#nuevaetiqueta {
+		background: #ACC4D3;
+		color:#c0bdb4;
+		border: 2px dotted gray;
+		border-radius: 4px;
+		text-align: center;
+		position: fixed; 
+		top:50%; left:5%; 
+		width: 90%; height:7%;;
+		
+	}
+
