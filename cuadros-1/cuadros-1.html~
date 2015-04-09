@@ -1,0 +1,110 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<!--
+Element providing solution to no problem in particular.
+
+##### Example
+
+    <cuadros-1></cuadros-1>
+
+@element cuadros-1
+@blurb Element providing solution to no problem in particular.
+@status alpha
+@homepage http://RCarlosTello.github.io/cuadros-1
+-->
+<polymer-element name="cuadros-1" attributes="author fancy">
+  <template>
+    <link rel="stylesheet" href="cuadros-1.css">
+ 	<div id="admin">	
+		<core-icon class="icono" icon="room" ></core-icon>  
+		<h4>Administrador</h4>	
+		<input type="button" class="iconovistamosaico" value="edit">
+		<input type="button" class="iconovistalista" value="edit">	
+		<input type="button" class="iconobusqueda" value="edit">
+	</div>
+	
+	<div id="nuevaetiqueta">
+		<h6>+</h6>
+	</div> 
+	
+	<div id="unpolitico" value=":(">
+		<input type="text" class="sombrapolitico"  >
+		<input type="button" class="editarpolitico"  value="edit">
+		<h5>Un Político</h5>
+	</div>	
+
+	<div id="unapelicula" value=": D">
+		<h3> : \ </h3>
+		<input type="text" class="sombrapelicula"  >
+		<input type="button" class="editarpelicula"  value="edit">
+		<h5>Una Pelicula</h5>
+	</div>
+
+	<div id="unevento" value=" : \">
+		<h3> : \ </h3>
+		<input type="text" class="sombraevento"  >
+		<input type="button" class="editarevento"  value="edit">
+		<h5>Un Evento</h5>
+	</div>
+
+    <content></content>
+  </template>
+  <script>
+    Polymer({
+      /**
+       * The `author` attribute sets an initial author
+       *
+       * @attribute author
+       * @type string
+       * @default 'Dimitri Glazkov'
+       */
+      author: 'Dimitri Glazkov',
+
+      /**
+       * `fancy` is a property that does something fancy.
+       *
+       * @property fancy
+       * @type bool
+       * @default false
+       */
+      fancy: false,
+
+      ready: function () {
+        // Ready is a lifecycle callback.
+        // You can do setup work in here.
+        // More info: http://www.polymer-project.org/docs/polymer/polymer.html#lifecyclemethods
+      },
+
+      /**
+       * The `sayHello` method will return a greeting.
+       *
+       * @method sayHello
+       * @param {String} greeting Pass in a specific greeting.
+       * @return {String} Returns a string greeting.
+       */
+      sayHello: function (greeting) {
+        var response = greeting || 'Hello World!';
+        return 'cuadros-1 says, ' + response;
+      },
+
+      /**
+       * The `cuadros-1-lasers-success` event is fired whenever we
+       * call fireLasers.
+       *
+       * @event cuadros-1-lasers-success
+       * @param {Object} detail
+       *   @param {string} detail.sound An amazing sound.
+       */
+
+      /**
+       * The `fireLasers` method will fire the lasers. At least
+       * it will dispatch an event that claims lasers were fired :)
+       *
+       * @method fireLasers
+       */
+      fireLasers: function () {
+        this.fire('cuadros-1-lasers-success', { sound: 'Pew pew pew!' });
+      }
+    });
+  </script>
+</polymer-element>

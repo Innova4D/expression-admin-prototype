@@ -1,0 +1,166 @@
+:host {
+  display: block;
+  color: red;
+}
+#admin {
+		background: #0F2B3C;
+		color:#c0bdb4;
+		padding-bottom: 8px;
+		padding:25px;
+		text-align: left;
+		position: fixed; 
+		top:0%; left:0%; 
+		width:100%; height:5%;
+	}
+input.iconovistamosaico {
+		position: fixed;
+		width: 3%;
+		height: 3%;
+		top: 6%;
+		left: 87%;
+	}
+input.iconovistalista {
+		position: fixed;
+		width: 3%;
+		height: 3%;
+		top: 6%;
+		left: 91%;
+	}
+input.iconobusqueda {
+		position: fixed;
+		width: 3%;
+		height: 3%;
+		top: 6%;
+		left: 95%;
+	}
+h3{ /* emoticones */
+		color: #FFFFFF;
+		font-weight: normal;
+		font-size: 30px;
+		margin-top: 3%;
+		margin-bottom: 1em;
+		margin-left: 4%;
+		padding:3px;		
+		display: block; 
+		position: fixed;
+	}
+h4{/* titulo de administrador*/
+		color: #FFFFFF;
+		font-weight: normal;
+		font-size: 20px;
+		width:55%;
+		position: fixed; 
+		display: block; 
+	}
+h5{/* titulo de la etiqueta */
+		color: #FFFFFF;
+		font-weight: normal;
+		font-size: 18px;
+		margin-top:18%;
+		margin-bottom: 1em;
+		margin-left: 1%;
+		padding:3px;		
+		display: block; 
+		position: fixed;
+	}
+h6{
+		color: gray;
+		font-weight: normal;
+		font-size: 204px;	
+		margin-top: 1%;
+		margin-left: 4%;
+		margin-bottom: 5em;
+		display: block; 
+		position: fixed;
+	}
+#nuevaetiqueta {
+		background: #ACC4D3;
+		color:#c0bdb4;
+		border: 2px dotted gray;
+		border-radius: 4px;
+		text-align: center;
+		position: fixed; 
+		top:20%; left:15%; 
+		width: 19.6%; height:35%;;		
+	}
+#unpolitico {
+		background: #DC4A4A;
+		color:#c0bdb4;
+		border-radius: 4px;
+		text-align: left;
+		position: fixed; 
+		top:20%; left:50%; 
+		width: 20%; height: 35%;
+		box-shadow: 0px 0px 10px 0px gray;/*sombra*/
+	}
+input.editarpolitico {
+		position: fixed;
+		width: 3%;
+		height: 5%;
+		top: 21%;
+		left: 66%;
+	}
+input.sombrapolitico{
+		position: fixed;
+		background: #A45050;
+		border: #A45050;
+		width: 20%;
+		height: 10%;
+		top: 35%;
+		left: 50%;
+	}
+#unapelicula {
+		background: #45DE64;
+		color:#c0bdb4;
+		border-radius: 4px;
+		text-align: left;
+		position: fixed; 
+		top:60%; left: 15%; 
+		width: 20%; height:35%;;
+		box-shadow: 0px 0px 10px 0px gray;/*sombra*/
+	}
+input.editarpelicula {
+		position: fixed;
+		width: 3%;
+		height: 5%;
+		top: 61%;
+		left: 31%;
+	}
+input.sombrapelicula{
+		position: fixed;
+		background: #65986F;
+		border: #65986F;
+		width: 20%;
+		height: 10%;
+		top: 75%;
+		left: 15%;
+	}
+#unevento {
+		background: #FFD100;
+		color:#c0bdb4;
+		border-radius: 4px;
+		text-align: left;
+		position: fixed; 
+		top:60%; 		
+		left:50%; 
+		width:20%;    
+		height:35%;	
+		box-shadow: 0px 0px 10px 0px gray;/*sombra*/
+	}
+input.editarevento {
+		position: fixed;
+		width: 3%;
+		height: 5%;
+		top: 61%;
+		left: 66%;
+	}
+input.sombraevento{
+		position: fixed;
+		background: #A6985A;
+		border: #A6985A;
+		width: 20%;
+		height: 10%;
+		top: 75%;
+		left: 50%;
+	}
+
